@@ -1,0 +1,23 @@
+<body >
+  <br><br><br><br><br><br>
+<mat-card class="example-card">
+  <div style="text-align:center">
+<h1>
+  <a  style="font-size:large;"> TEST MARIAM</a>
+</h1>
+<br>
+<img mat-card-image src="https://pbs.twimg.com/media/D-sBvl0VUAADZWs?format=jpg&name=large" alt="mariam on twiter"  >
+  </div>
+  <br>
+
+  <mat-radio-group aria-label="Select an option">
+    <mat-radio-button *ngFor="chioce" [value]="chioce.choiceID"  >{{chioce.keyAnswer}}</mat-radio-button>
+    <br>
+    <mat-radio-button *ngFor="chioce" [value]="chioce.choiceID"  >{{chioce.keyAnswer}}</mat-radio-button>
+    <br>
+    <mat-radio-button *ngFor="chioce" [value]="chioce.choiceID"  >{{chioce.keyAnswer}}</mat-radio-button>
+    <br>
+  </mat-radio-group>
+
+</mat-card>
+</body>
