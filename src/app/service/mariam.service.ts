@@ -13,11 +13,9 @@ export class MariamService {
   getChoice(): Observable<any> {
     return this.http.get(this.API + '/choice');
   }
-
   getQuestion(): Observable<any> {
     return this.http.get(this.API + '/question');
   }
-
   getScore(): Observable<any> {
     return this.http.get(this.API + '/score');
   }

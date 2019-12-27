@@ -73,6 +73,7 @@ const appRoutes: Routes = [
   providers: [MariamService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
 
 
